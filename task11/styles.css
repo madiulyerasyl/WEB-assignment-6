@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 30px;
+}
+
+h1 {
+    color: #222;
+}
+
+.accordion {
+    max-width: 600px;
+    margin-top: 25px;
+}
+
+.accordion-header {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.accordion-header:hover {
+    background-color: #2980b9;
+}
+
+.accordion-content {
+    display: none;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
